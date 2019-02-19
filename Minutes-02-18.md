@@ -40,13 +40,14 @@ There are two potential downfalls to this idea:
 #### Idea 1-A: Airplane Traffic
 
 Instead of counting people, we would be looking at flight traffic overhead
-This only requires and ADSB reciever and a pc to read the data. 
+This only requires an ADSB reciever and a pc to read the data. 
 Potential expansions to this project are to overlay the flights on google maps
+can we query individual flight numbers?
 
 ### Idea 2: Event Message Board
 
 This concept is sort of a craigslist/eventbrite clone but simpler and limited to CU.
-The *Minimum Viable Product* here is a user can post and event that all others can see
+The *Minimum Viable Product* here is a user can post an event that all others can see
 Additional features could include:
 - users can click a button to join/attend event
 - users can click a button to ignore/hide an event on the list
