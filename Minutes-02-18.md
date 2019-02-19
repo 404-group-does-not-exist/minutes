@@ -42,7 +42,7 @@ There are two potential downfalls to this idea:
 Instead of counting people, we would be looking at flight traffic overhead
 This only requires an ADSB reciever and a pc to read the data. 
 Potential expansions to this project are to overlay the flights on google maps
-can we query individual flight numbers?
+-can we query individual flight numbers?
 
 ### Idea 2: Event Message Board
 
