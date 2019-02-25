@@ -7,3 +7,4 @@ Links to minutes for different meetings
 
 [Meeting 2 Feb 18](Minutes-02-18.md)
 
+[Meeting 3](Minutes-02-25.md)
