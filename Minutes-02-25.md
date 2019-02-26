@@ -36,4 +36,29 @@ What goes in DB?
 
 Discussion of branching policy: <add links>
 
+### set up trello
 
+invites sent
+
+### Agenda for next meeting
+
+- features and DB schema
+- milestone 2
+- proof of concept
+- assign front end tasks
+
+### Action Items
+
+- find new wireless adapter
+- practice adding feature branchs
+- 
+### Wrap Up and Retrospective
+
+plus: Robert: Jasper good job organizing so far
+      Peng : Robert provide wifi presentation
+      Jasper: Our best attended meeting so far
+      Finalized Name initialized repo
+
+Delta:
+       need a better wifi usb adapter
+Neutral:
