@@ -98,7 +98,7 @@ Repeat this process as needed while working on the branch. Even though the branc
 
 When the feature on which you are working is finally complete, you want to merge that branch (onto the `dev` branch in the case of `Wifiology` repo) in this case, onto `master`. This is done most easily from the github website.
 
-INSERT IMAGE OF BRANCH
+![merge and pull request](../img/screen_PR_1.png)
 
 INSERT IMAGE OF PULL REQUEST SCREEN
 
