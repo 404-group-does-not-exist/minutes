@@ -46,4 +46,60 @@ so,
 
 Then if I type `git branch` again I'll see the asterisk has moved to the branch that I want to work on. At this point this entire directory on my machine reflects the branch that I just created. If I change anything in this directory It will need to be added, commited, *and* pushed before any changes are saved remotely.
 
-So at this point with half the doc written, I'll save my work and push it to just this branch on the remote repository.
+So at this point with half the doc written, I'll save my work and push it to just this branch on the remote repository. Typing `git status` I see the following output:
+```
+On branch add-git-workflow-docs
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	docs/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+```
+with docs/ written in red because it is a folder full of changes that have not been added. `git add filename` adds the file named 'filename' but since I changed multiple files it is easier to do `git add . ` the '.' ensures that all untracked files are staged to commit. If I type `git status` again, I'll see my tracked changes in green, indicating they are ready to commit. use `git commit -m "message goes here"` to commit the change with a consise description of what has changed.
+
+```
+    git commit -m "created docs folder and workflow.md"
+```
+
+This produces the following output:
+```
+   [add-git-workflow-docs f08a7fb] created docs folder and workflow.md
+   1 file changed, 49 insertions(+)
+   create mode 100644 docs/workflow.md
+```
+The branch is now up to date on my local machine but it is not stored anywhere else.
+
+Finally, I push the changes to have them saved online in the repo
+```
+    git push origin add-git-workflow.md
+```
+
+I'm prompted for my github username and passoword and see the following output:
+```
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 1.30 KiB | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'add-git-workflow-docs' on GitHub by visiting:
+remote:      https://github.com/404-group-does-not-exist/minutes/pull/new/add-git-workflow-docs
+remote: 
+```
+
+Now I can see the branch available on the github website.
+
+Repeat this process as needed while working on the branch. Even though the branch should be dedicated to only one feature at a time, I still may need to work on it incrementally and its always a good idea to save and backup your work. Any time you reach a stopping point, its a good habit to `add`, `commit` and `push` changes to the branch you are working.
+
+## Pull Requests and Merge
+
+When the feature on which you are working is finally complete, you want to merge that branch (onto the `dev` branch in the case of `Wifiology` repo) in this case, onto `master`. This is done most easily from the github website.
+
+INSERT IMAGE OF BRANCH
+
+INSERT IMAGE OF PULL REQUEST SCREEN
+
+
