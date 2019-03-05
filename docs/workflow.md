@@ -1,9 +1,5 @@
 # Git Workflow by Example
 
-## Cloning the Repos
-
-TODO
-
 ## Setup
 
 The first thing you'll want to do is navigate to the direcory where the repository is stored. In my case that would be:
@@ -105,5 +101,10 @@ At the top we see the recently pushed branches. click the green 'compare & pull 
 Finally, after adding reviewers click the 'create pull request' button. Once someone else reviews it we can merge it onto the master branch.
 
 ![submit for review](../img/screen_PR_2.png)
+
+## Working on the actual code Repository
+
+TODO
+The main difference is branching off of `dev` instead of `master`...I'll expound on it after everyone gets this first step down.
 
 
