@@ -100,6 +100,10 @@ When the feature on which you are working is finally complete, you want to merge
 
 ![merge and pull request](../img/screen_PR_1.png)
 
-INSERT IMAGE OF PULL REQUEST SCREEN
+At the top we see the recently pushed branches. click the green 'compare & pull request' button. Here is the pull reques screen, at the right click on 'reviewers' and add all of the team to review. Please to not add the the TA Lakshya to the review, he only needs access to the repo for grading.
+
+Finally, after adding reviewers click the 'create pull request' button. Once someone else reviews it we can merge it onto the master branch.
+
+![submit for review](../img/screen_PR_2.png)
 
 
