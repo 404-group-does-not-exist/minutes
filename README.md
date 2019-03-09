@@ -6,6 +6,20 @@ Please place your brief bio's in ./docs directory saved as your-name.md
 
 Place all research materials in the /research directory under the appropriate subdirectory
 
+## Team Members
+
+Peng Jiang
+
+Ryan Campbell
+
+[Jasper Niemeyer](./docs/jasper-niemeyer.md)
+
+Robert Cope
+
+Jason Nguyen
+
+Baiyu Chen
+
 [Example Git Workflow](./docs/workflow.md)
 
 Links to minutes for different meetings
