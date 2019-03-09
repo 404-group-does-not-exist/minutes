@@ -1,6 +1,11 @@
 
 # Meeting Minutes
 
+## File Structure
+Please place your brief bio's in ./docs directory saved as your-name.md
+
+Place all research materials in the /research directory under the appropriate subdirectory
+
 [Example Git Workflow](./docs/workflow.md)
 
 Links to minutes for different meetings
