@@ -32,5 +32,11 @@ Links to minutes for different meetings
 
 [Meeting 4 March 4](./minutes/Minutes-03-04.md)
 
+-Meeting 5 March 11 - no minutes, meeting dedicated to coding
 
+-Meeting 6 March 18 - no minutes, meeting to set up mini-group meetings
+
+[Meeting 7 April 01](./minutes/Minutes-04-01.md)
+
+[Meeting 8 April 08](./minutes/Minutes-04-08.md)
 
