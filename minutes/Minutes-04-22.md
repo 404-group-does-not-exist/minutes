@@ -2,7 +2,7 @@
 
 - presentation coming May 1
 
-- currently functioning login and data displaying at: (https://wifiology.copesystems.com)[Robert's Domain]
+- currently functioning login and data displaying at: [Roberts domain](https://wifiology.copesystems.com)
 ## Agenda
 
 - discuss final sprint
