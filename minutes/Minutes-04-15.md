@@ -18,3 +18,32 @@ Lots to discuss today. We are approaching the deadline. We are either presenting
   - delegate tasks
   - set up additional meeting times if necessary
 
+## New Requirements / what is left to do
+
+- upgrade heroku to hobby+
+- main loop for email handler
+- sendgrid
+- db promises --> be able to post data
+
+### UI issues
+
+- currently a mix of local assets and CDN
+   - should probably go with all local: get bootsrap stylesheets and use locally
+   - problem: multiple potentially incompatible libraries
+   - minimize use of js
+
+- Keep it simple focus on bootstrap 4 or less and jQuery 3
+- a page for everything (not singlepage with modals)
+  - easier to debug
+
+- login.ejs
+- register.ejs
+
+## Presentation stuff
+
+- everyone bio
+- slides
+  - some slides can be what we learned as individuals
+
+
+
